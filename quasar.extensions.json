@@ -3,5 +3,19 @@
     "options": [
       "ui"
     ]
+  },
+  "@quasar/testing-unit-jest": {
+    "babel": "babelrc",
+    "options": [
+      "scripts",
+      "wallabyjs",
+      "majestic"
+    ]
+  },
+  "@quasar/testing-e2e-cypress": {
+    "options": [
+      "scripts",
+      "code-coverage"
+    ]
   }
 }
